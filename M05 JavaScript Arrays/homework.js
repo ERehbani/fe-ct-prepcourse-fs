@@ -49,7 +49,6 @@ function dePalabrasAFrase(palabras) {
    // Ejemplo: ['Hello', 'world!'] -> 'Hello world!'.
    // Tu código:
    return palabras.join(" ");
-   return palabras
 }
 
 function arrayContiene(array, elemento) {
@@ -224,8 +223,8 @@ function continueStatement(num) {
       if (i+1 === 5)continue;
       
       else 
-         valor = valor + 2;
-         array.push(valor);
+          valor = valor + 2;
+          array.push(valor);
       
    }
    return array;
